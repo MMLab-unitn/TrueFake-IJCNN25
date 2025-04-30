@@ -8,13 +8,13 @@ The dataset will be made available soon.
 # Prompts
 In ```./prompts/``` we make available the prompts used for the generation of the dataset.\
 in ```./prompts/src/``` we provide the scripts used to generate ```prompts_faces.txt```, ```prompts_animals.txt```, and ```prompts_landscapes.txt```.\
-```prompts_general.txt``` is instead a subset of [sezenkarakus/image-description-dataset-v2](https://huggingface.co/datasets/sezenkarakus/image-description-dataset-v2)
+```prompts_general.txt``` is instead a subset of [sezenkarakus/image-description-dataset-v2](https://huggingface.co/datasets/sezenkarakus/image-description-dataset-v2).
 
 # Detector
 
 ## Use pretrained network
 The network was trained according to the information provided in the paper on a limited subset of non-shared data.\
-If you plan on using the network for other purposes other than to replicate the results in the paper, you should re-train it on a more comprehensive subset.\
+If you plan on using the network for other purposes other than to replicate the results in the paper, you should re-train it on a more comprehensive subset.
 
 Create directory with ```mkdir -p ./detector/train/gan2:pre&sdXL:pre&realFFHQ:pre&realFORLAB:pre/models/```.
 And put the [pretrained weigths](https://drive.usercontent.google.com/download?id=1m0b8HZuOCcF_-l2-GJBi3C22RuG5UDvU&export=download) inside, make sure that the file is named ```best.pt```.
