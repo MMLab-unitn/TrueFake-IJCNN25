@@ -3,7 +3,6 @@
 # ----------------------------------------------------------------------------
 import os
 import torch
-import pandas as pd
 from tqdm import tqdm
 
 from networks import ImageClassifier
@@ -14,7 +13,7 @@ def test(loader, model, settings):
     model.eval()
 
     csv_filename = f'./train/{settings.name}/data/{settings.data_keys}/results.csv'
-    # df = pd.DataFrame(columns=['name', 'pro','flag'])
+
     with open(csv_filename, 'w') as f:
         f.write(f"{','.join(['name', 'pro', 'flag'])}\n")
     
@@ -30,9 +29,6 @@ def test(loader, model, settings):
                 with open(csv_filename, 'a') as f:
                     for score, label, path in zip(scores, labels, paths):
                         f.write(f"{path}, {score.item()}, {label.item()}\n")
-                        # df = df._append({'name': path,'pro': score.item(),'flag':label.item()}, ignore_index=True)
-
-    # df.to_csv(csv_filename, index=False)
 
 if __name__ == "__main__":
     parser = get_parser()

@@ -10,3 +10,6 @@ venv.bak/
 
 *.pth
 *.pt
+
+logs/
+train/

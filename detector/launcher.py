@@ -1,9 +1,7 @@
 
 import os
-import subprocess
-import glob 
+import subprocess 
 import time
-import shutil
 
 def autotest(train_list, data_list):
     assert type(data_list) == list
@@ -30,7 +28,7 @@ dry_run = False
 # specify the phases to run {train, test}
 phases = ['train', 'test']
 
-device_override = 'cuda:1'
+device_override = 'cuda:0'
 
 tasks = []
 

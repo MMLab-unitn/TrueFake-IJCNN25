@@ -13,7 +13,6 @@ import torch.optim as optim
 from networks import ImageClassifier
 from parser import get_parser
 from dataset import create_dataloader
-# from torcheval.metrics import BinaryAccuracy
 from sklearn.metrics import balanced_accuracy_score
 
 def check_accuracy(val_dataloader, model, settings):
@@ -54,10 +53,7 @@ def train(train_dataloader, val_dataloader, model, settings):
                 scores = model(data).squeeze(1)
 
                 loss = criterion(scores, label).mean()
-                # if epoch < 1:
-                #     reg_loss = torch.mean((model.backbone.fc.weight - torch.eye(model.backbone.fc.in_features, device=device))**2)
-                #     loss += reg_loss * 1e-4
- 
+
                 optimizer.zero_grad()
                 loss.backward()
                 optimizer.step()
@@ -108,13 +104,8 @@ if __name__ == "__main__":
     train_dataloader = create_dataloader(settings, split='train')
     val_dataloader = create_dataloader(settings, split='val')
 
-    # model.noise = True
-
-
     optimizer = optim.Adam((p for p in model.parameters() if p.requires_grad), lr=settings.lr)
 
     criterion = nn.BCEWithLogitsLoss(reduction='none')
-    # criterion = nn.BCELoss(reduction='none')
-    # metric = BinaryAccuracy()
 
     train(train_dataloader, val_dataloader, model, settings)
