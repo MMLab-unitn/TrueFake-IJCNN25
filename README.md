@@ -17,7 +17,7 @@ The network was trained according to the information provided in the paper on a 
 If you plan on using the network for other purposes other than to replicate the results in the paper, you should re-train it on a more comprehensive subset.\
 
 Create directory with ```mkdir -p ./detector/train/gan2:pre&sdXL:pre&realFFHQ:pre&realFORLAB:pre/models/```.
-And put the [pretrained weigths](https://drive.google.com/file/d/1m0b8HZuOCcF_-l2-GJBi3C22RuG5UDvU/view?usp=sharing) inside, make sure that the file is named ```best.pt```.
+And put the [pretrained weigths](https://drive.usercontent.google.com/download?id=1m0b8HZuOCcF_-l2-GJBi3C22RuG5UDvU&export=download) inside, make sure that the file is named ```best.pt```.
 
 ## Set up Virtual-Env
 ```
