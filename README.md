@@ -15,7 +15,7 @@ Authors: Stefano Dell'Anna, Andrea Montibeller, Giulia Boato
 </table>
 
 # Dataset
-The dataset will be made available soon.
+The dataset is available at this [link](https://drive.usercontent.google.com/download?id=1og1cdczOspkQY3jF1m5sWNBc8X59h2e5)
 
 # Prompts
 In ```./prompts/``` we make available the prompts used for the generation of the dataset.\
