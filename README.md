@@ -17,6 +17,31 @@ Authors: Stefano Dell'Anna, Andrea Montibeller, Giulia Boato
 # Dataset
 The dataset is available at this [link](https://drive.usercontent.google.com/download?id=1og1cdczOspkQY3jF1m5sWNBc8X59h2e5)
 
+## Partitions
+Partitions of the dataset are provided here:
+
+| Partition  | Link |
+| ------------- | ------------- |
+| FLUX.1    |[here](https://drive.usercontent.google.com/download?id=1knIvIyN1ZTz7boaG_waCowPDrs0xy6yn)|
+| StableDiffusion 1.5    |[here](https://drive.usercontent.google.com/download?id=1CDf7_J7bNOh5i6KnJ1kWuEptPJRNAIma)|
+| StableDiffusion 2    |[here](https://drive.usercontent.google.com/download?id=1EiH-o1OBGED6XrQlfKseLwKunjRLnDV9)|
+| StableDiffusion 3      |[here](https://drive.usercontent.google.com/download?id=1RDGOHSXuYEZ3jk52tReK4GF12kh5lDmE)|
+| StableDiffusion XL    |[here](https://drive.usercontent.google.com/download?id=1d6BCPKo5LBHBoBMPIf1YnrYX0mc3eFAg)|
+| StyleGAN     |[here](https://drive.usercontent.google.com/download?id=1ItJuRcl7XdPullJMb1qgK5eygws71Wsc)|
+| StyleGAN 2     |[here](https://drive.usercontent.google.com/download?id=1T0hvSXp_mnp_ThCQBFfUvH_ZSbPjEZTP)|
+| StyleGAN 3     |[here](https://drive.usercontent.google.com/download?id=16uI7FmQnY7z9JCBJFkgnwIDi55E2yokA)|
+| FFHQ     | Soon |
+| FORLAB | Soon|
+
+
+| Shared  | Link |
+| ------------- | ------------- |
+| Facebook    | Soon |
+| Telegram    | Soon |
+| Twitter     | Soon |
+
+
+
 # Prompts
 In ```./prompts/``` we make available the prompts used for the generation of the dataset.\
 in ```./prompts/src/``` we provide the scripts used to generate ```prompts_faces.txt```, ```prompts_animals.txt```, and ```prompts_landscapes.txt```.\
