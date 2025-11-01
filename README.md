@@ -22,23 +22,22 @@ Partitions of the dataset are provided here:
 
 | Partition  | Link |
 | ------------- | ------------- |
-| FLUX.1    |[here](https://drive.usercontent.google.com/download?id=1knIvIyN1ZTz7boaG_waCowPDrs0xy6yn)|
-| StableDiffusion 1.5    |[here](https://drive.usercontent.google.com/download?id=1CDf7_J7bNOh5i6KnJ1kWuEptPJRNAIma)|
-| StableDiffusion 2    |[here](https://drive.usercontent.google.com/download?id=1EiH-o1OBGED6XrQlfKseLwKunjRLnDV9)|
-| StableDiffusion 3      |[here](https://drive.usercontent.google.com/download?id=1RDGOHSXuYEZ3jk52tReK4GF12kh5lDmE)|
+| FLUX.1                |[here](https://drive.usercontent.google.com/download?id=1knIvIyN1ZTz7boaG_waCowPDrs0xy6yn)|
+| StableDiffusion 1.5   |[here](https://drive.usercontent.google.com/download?id=1CDf7_J7bNOh5i6KnJ1kWuEptPJRNAIma)|
+| StableDiffusion 2     |[here](https://drive.usercontent.google.com/download?id=1EiH-o1OBGED6XrQlfKseLwKunjRLnDV9)|
+| StableDiffusion 3     |[here](https://drive.usercontent.google.com/download?id=1RDGOHSXuYEZ3jk52tReK4GF12kh5lDmE)|
 | StableDiffusion XL    |[here](https://drive.usercontent.google.com/download?id=1d6BCPKo5LBHBoBMPIf1YnrYX0mc3eFAg)|
-| StyleGAN     |[here](https://drive.usercontent.google.com/download?id=1ItJuRcl7XdPullJMb1qgK5eygws71Wsc)|
-| StyleGAN 2     |[here](https://drive.usercontent.google.com/download?id=1T0hvSXp_mnp_ThCQBFfUvH_ZSbPjEZTP)|
-| StyleGAN 3     |[here](https://drive.usercontent.google.com/download?id=16uI7FmQnY7z9JCBJFkgnwIDi55E2yokA)|
-| FFHQ     | Soon |
-| FORLAB | Soon|
-
+| StyleGAN              |[here](https://drive.usercontent.google.com/download?id=1ItJuRcl7XdPullJMb1qgK5eygws71Wsc)|
+| StyleGAN 2            |[here](https://drive.usercontent.google.com/download?id=1T0hvSXp_mnp_ThCQBFfUvH_ZSbPjEZTP)|
+| StyleGAN 3            |[here](https://drive.usercontent.google.com/download?id=16uI7FmQnY7z9JCBJFkgnwIDi55E2yokA)|
+| FFHQ                  |[here](https://drive.usercontent.google.com/download?id=1yjIPAp9BR5Wf52S6NRsLJPOB3MP4hF7f)|
+| FORLAB                |[here](https://drive.usercontent.google.com/download?id=1n0laTP5TjF6tPkby2nHqUTnQHY-Ff5Ei)|
 
 | Shared  | Link |
 | ------------- | ------------- |
-| Facebook    | Soon |
-| Telegram    | Soon |
-| Twitter     | Soon |
+| Facebook      |[here](https://drive.usercontent.google.com/download?id=10cQq48JtpRZgrHuckMyeFOwPvZZHDMXd)|
+| Telegram      |[here](https://drive.usercontent.google.com/download?id=1MfHNNvVa_gTByVBzEvoaru_EwT-j2j-D)|
+| Twitter       |[here](https://drive.usercontent.google.com/download?id=1UPPLOKHTumd2eCel-s0sWe5JxmToqVFZ)|
 
 
 
