@@ -1,6 +1,6 @@
 # TrueFake: A Real World Case Dataset of Last Generation Fake Images also Shared on Social Networks
 
-This is the official code implementation of the "IJCNN 2025" paper ["TrueFake: A Real World Case Dataset of Last Generation Fake Images also Shared on Social Networks"](https://arxiv.org/abs/2504.20658)\
+This is the official code implementation of the "IJCNN 2025" paper ["TrueFake: A Real World Case Dataset of Last Generation Fake Images also Shared on Social Networks"](https://ieeexplore.ieee.org/document/11228911), [Arxive](https://arxiv.org/abs/2504.20658)\
 Authors: Stefano Dell'Anna, Andrea Montibeller, Giulia Boato 
 
 ## Abstract
@@ -90,13 +90,15 @@ Check [TrueFake: A Real World Case Dataset of Last Generation Fake Images also S
 If you use this material please cite:
 
 ```
-@misc{dellanna2025truefake,
-      title={TrueFake: A Real World Case Dataset of Last Generation Fake Images also Shared on Social Networks}, 
-      author={Stefano Dell'Anna and Andrea Montibeller and Giulia Boato},
-      year={2025},
-      eprint={2504.20658},
-      archivePrefix={arXiv},
-      primaryClass={cs.MM},
-      url={https://arxiv.org/abs/2504.20658}, 
-}
+@INPROCEEDINGS{11228911,
+  author={Dell’Anna, Stefano and Montibeller, Andrea and Boato, Giulia},
+  booktitle={2025 International Joint Conference on Neural Networks (IJCNN)}, 
+  title={TrueFake: A Real World Case Dataset of Last Generation Fake Images also Shared on Social Networks}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Training;Image coding;Social networking (online);Forensics;Large language models;Neural networks;Transform coding;Detectors;Transformers;Mirrors;Multimedia forensics;AI-generated image detection;Social Networks;Deepfakes},
+  doi={10.1109/IJCNN64981.2025.11228911}}
+
 ```
